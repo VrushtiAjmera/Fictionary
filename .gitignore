@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Angular build output
+dist/
+.angular/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE files
+.vscode/
